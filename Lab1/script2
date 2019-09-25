@@ -1,0 +1,7 @@
+#! /bin/bash
+
+icc -Wall -fast -g test_13.c -o sobel;
+
+for i in {1..12};
+do ./sobel;
+done

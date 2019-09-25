@@ -1,0 +1,16 @@
+Enable copy/paste in Terminal:
+
+	gconftool-2 -t str -s /apps/gnome-terminal/keybindings/copy "<Control>c"
+	gconftool-2 -t str -s /apps/gnome-terminal/keybindings/paste "<Control>v"
+
+
+Enable icc compiler:
+
+	source /opt/intel/bin/iccvars.sh intel64
+	source /opt/intel/bin/compilervars.sh intel64
+
+? source /opt/intel/composer_xe_2013_sp1.0.080/bin/iccvars.sh intel64
+? source /opt/intel/composer_xe_2013_sp1.0.080/bin/compilervars.sh intel64
+
+? source install-dir/bin/compilervars.csh intel64
+? source install-dir/bin/compilervars.sh intel64

@@ -1,0 +1,9 @@
+#! /bin/bash
+
+# chmod +x script-name-here
+
+
+
+for i in {1..10};
+do time ./quake < input;
+done
